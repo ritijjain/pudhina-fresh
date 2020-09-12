@@ -1,0 +1,9 @@
+<h1 class="post-title">
+    <div class="post-title__text">{{ page.title }}</div>
+</h1>
+
+<p class="post-title__subtitle">Published <u>{{ page.date | date: "%d %B %Y" }}</u> by {{page.author}}<br />
+    {% for tag in page.tags %}
+        <span class="badge badge-info">{{ tag }}</span>
+    {% endfor %}
+<hr>

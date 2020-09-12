@@ -1,0 +1,34 @@
+I"-
+<p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. This site uses this theme. Pudhina Fresh is open source &gt; &gt; &gt; <a href="https://github.com/ritijjain/pudhina-fresh">Github Repository</a>.</p>
+
+<h2 id="powered-by-jekyll">Powered by Jekyll</h2>
+<p>Jekyll is a simple yet feature-rich static site generator for personal, project, or organization sites.</p>
+
+<p>Learn more about <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+<h2 id="fast">Fast</h2>
+<p><img src="/assets/img/google-pagespeed-insights.png" alt="Google PageSpeed Insights" target="_blank" /></p>
+
+<h2 id="beautiful-masonry-style-project-page">Beautiful Masonry Style Project Page</h2>
+<p>Powered by <a href="https://getbootstrap.com/docs/4.0/components/card/">Bootstrap cards</a>.
+<img src="/assets/img/project-page.png" alt="Project Page" target="_blank" /></p>
+
+<h2 id="code-friendly">Code Friendly</h2>
+<p>Code blocks powered <a href="https://highlightjs.org/">highlight.js</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">requires_authorization</span>
+<span class="k">def</span> <span class="nf">somefunc</span><span class="p">(</span><span class="n">param1</span><span class="o">=</span><span class="s">''</span><span class="p">,</span> <span class="n">param2</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="s">r'''A docstring'''</span>
+    <span class="k">if</span> <span class="n">param1</span> <span class="o">&gt;</span> <span class="n">param2</span><span class="p">:</span> <span class="c1"># interesting
+</span>        <span class="k">print</span> <span class="s">'Gre</span><span class="se">\'</span><span class="s">ater'</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">param2</span> <span class="o">-</span> <span class="n">param1</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">+</span> <span class="mb">0b10</span><span class="n">l</span><span class="p">)</span> <span class="ow">or</span> <span class="bp">None</span>
+
+<span class="k">class</span> <span class="nc">SomeClass</span><span class="p">:</span>
+    <span class="k">pass</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span> <span class="o">=</span> <span class="s">'''interpreter
+... prompt'''</span>
+
+</code></pre></div></div>
+<p>In line <code class="highlighter-rouge">code</code> looks great too. Even <code class="highlighter-rouge">longer lines of inline code</code> work.</p>
+:ET

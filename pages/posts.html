@@ -1,0 +1,62 @@
+---
+layout: page
+title: Posts
+subtitle: Random thoughts.
+permalink: /posts/
+---
+{% for post in site.posts %}
+<div class="card mb-4">
+    <div class="card-body">
+        <h5><a href="{{ post.url | prepend: site.baseurl }}"><b>{{ post.title }}</b></a></h5>
+        <p>{{ post.excerpt }}</p>
+        <p class="post-title__subtitle">Published <u>{{ post.date | date: "%d %B %Y" }}</u> by {{post.author}}<br />
+            {% for tag in post.tags %}
+                <span class="badge badge-info">{{ tag }}</span>
+            {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+<!-- 
+{% for post in site.posts %}
+    <div class="card mb-3">
+    <div class="card-body">
+        {% for tag in post.tags %}
+        <span class="badge badge-info">{{ tag }}</span>
+        {% endfor %}
+        <br>
+        <br>
+        <h5 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}"><b>{{ post.title }}</b></a></h5>
+        <p class="card-text">{{ post.excerpt}}</p>
+        <p class="card-text"><small class="text-muted">{{ post.date | date: "%d %B %Y" }}</small></p>
+    </div>
+    </div>
+{% endfor %}
+
+
+<div>
+{% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
+{% for category in postsCategory %}
+<h4 class="post-teaser__month">
+<strong>
+{% if category.name %} 
+- - - - -  {{ category.name }} - - - - - 
+{% else %} 
+{{ Print }} 
+{% endif %}
+</strong>
+</h4>
+
+<ul class="list-posts">
+{% for post in category.items %}
+<li class="post-teaser">
+<a href="{{ post.url | prepend: site.baseurl }}">
+<span class="post-teaser__title">{{ post.title }}</span>
+<span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+</a>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}
+</div>
+-->

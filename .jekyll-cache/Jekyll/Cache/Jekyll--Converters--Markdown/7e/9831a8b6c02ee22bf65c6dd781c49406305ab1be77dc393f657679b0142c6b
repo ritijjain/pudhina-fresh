@@ -1,0 +1,16 @@
+I"d<p>More code with normal text food <code class="highlighter-rouge">food</code>. Bar. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. Some more lorem ipsum text under the hood. <code class="highlighter-rouge">doc</code>.</p>
+
+<p>Some more lorem ipsum text under the hood.</p>
+
+<p>Some more lorem ipsum text under the hood.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">some</span> <span class="n">code</span>
+<span class="n">some</span> <span class="n">python</span> <span class="n">code</span>
+
+<span class="n">def</span> <span class="nf">foo</span><span class="o">(</span><span class="n">bar</span><span class="o">):</span>
+    <span class="n">bar</span> <span class="o">=</span> <span class="n">dog</span>
+    <span class="k">return</span> <span class="nc">None</span>
+
+
+</code></pre></div></div>
+:ET

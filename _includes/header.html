@@ -1,0 +1,27 @@
+<header class="header">
+<div class="navigation">
+<a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
+<ul class="menu">
+<li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">about</a></li>
+<li class="menu__entry"><a href="{{ '/projects' | prepend: site.baseurl }}">projects</a></li>
+<li class="menu__entry"><a href="{{ '/posts' | prepend: site.baseurl }}">posts</a></li>
+</ul>
+</div>
+<ul class="social-links">
+{% if site.author.email %}
+<a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+<i class="fa fa-envelope-square"></i>
+</a>
+{% endif %}
+{% if site.author.github %}
+<a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+{% endif %}
+{% if site.author.linkedin %}
+<a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+{% endif %}
+</ul>
+</header>

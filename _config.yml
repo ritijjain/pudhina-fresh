@@ -1,0 +1,36 @@
+# Site settings
+title: Ritij Jain
+description: >
+  Computer science major at Penn State with an interest in robotics, data science, and full-stack software development.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ritijjain.com" # the base hostname & protocol for your site
+
+author:
+  fullname: Ritij Jain
+  github: ritijjain
+  linkedin: ritijjain
+  email: ritij@ritijjain.com
+
+disqus_name: 
+g_track_id: 
+
+# Build settings
+highlighter: null
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      comments: true
+      author: <a href="/">Ritij Jain</a>
+  -
+    scope:
+      path: "pages/redirects"
+    values:
+      layout: redirect
+      robots: "noindex"
+      sitemap:
+        exclude: 'yes'
