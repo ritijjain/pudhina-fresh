@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include meta_tags/base.html %}
+{% include externals/styling.html %}
+</head>
+<body>
+<div class="wrapper">
+<h1 class="post-title">
+    <div class="post-title__text">{{ page.title }}</div>
+</h1>
+<p class="post-title__subtitle">{% if page.updated %} Last Updated {{ page.updated | date: "%b %e, 20%y" }} {% endif %}</p>
+<hr>
+<br>
+{{ content }}
+</div>
+</body>
+</html>

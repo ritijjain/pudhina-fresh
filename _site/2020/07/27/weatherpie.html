@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>WeatherPie Weather App | Pudhina Fresh</title>
+
+<meta name="description" content="A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
+">
+<meta name="keywords" content="#app, #django">
+<link rel="canonical" href="/2020/07/27/weatherpie.html">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+<!--Feature assets-->
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<!--Highlight.js-->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!--Main assets-->
+<link rel="icon" type="image/jpeg" href="/favicon.png"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<div class="wrapper">
+<header class="header">
+<div class="navigation">
+<a href="/" class="logo">Pudhina Fresh</a>
+<ul class="menu">
+<li class="menu__entry"><a href="/">about</a></li>
+<li class="menu__entry"><a href="/projects">projects</a></li>
+<li class="menu__entry"><a href="/posts">posts</a></li>
+</ul>
+</div>
+<ul class="social-links">
+
+
+
+</ul>
+</header>
+<br>
+<br>
+<h1 class="post-title">
+    <div class="post-title__text">WeatherPie Weather App</div>
+</h1>
+<p class="post-title__subtitle">Published Jul 27, 2020  by <a href="http://ritijjain.com/">Ritij Jain<a><br />
+
+
+    <span class="badge badge-info">#app</span>
+
+    <span class="badge badge-info">#django</span>
+
+<hr>
+<br>
+
+<p><img src="/assets/img/weather-meter.jpg" alt="An outdoor weather meter (Logarithmic Scale)" target="_blank" />
+<em>An outdoor weather meter. Photograph: Ralph Hutter</em></p>
+
+<p>Most weather apps do a decent job delivering weather conditions and the forecast but leave it up to the user to interpret them and decide what clothing in their closet might work that day. However, this can get confusing as several weather metrics like temperature, rain, snow, UVI index, wind speed, etc. have to be considered to get a full picture. When doing this for the current weather and the forecast several hours or days ahead, it can get messy rather fast.</p>
+
+<p><a href="https://weatherpie.herokuapp.com/" target="_blank">WeatherPie</a> <i class="fas fa-external-link-alt"></i>, a Django web app I have developed aims to solve this problem by analyzing the weather data for the user to help them decide the appropriate clothing for the day. WeatherPie works with current weather and forecast data from the <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> <i class="fas fa-external-link-alt"></i> API to decide what types of clothing a user might need in the near future.</p>
+
+<p>Several other weather apps already exist that also serve a similar purpose, however, I found none that suggest clothing using hourly weather data. WeatherPie fills this gap and allows users to view clothing suggestions for the next several hours. WeatherPie v2.0 plans to improve this feature by adding daily clothing suggestions based on the daily weather forecast. This may come in handy when deciding what to pack for a longer trip.</p>
+
+<p>WeatherPie is open source, view and download the full source code from <a href="https://github.com/ritijjain/weather-pie" target="_blank">GitHub</a> <i class="fas fa-external-link-alt"></i>.</p>
+
+
+<br>
+
+<div id="disqus_thread"></div>
+<script>
+
+
+var disqus_config = function () {
+this.page.url = 'https://ritijjain.github.io/pudhina-fresh//assets/style.css';
+this.page.identifier = '/2020/07/27/weatherpie.html'; 
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+<br>
+
+<div class="about">
+<div class="about__devider">*****</div>
+<div class="about__text">
+<br>
+&#169 2020, Ritij Jain | <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme for Jekyll.
+</div>
+</div>
+</div>
+</body>
+</html>

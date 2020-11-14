@@ -1,12 +1,11 @@
 ---
 layout: null
-sitemap:
-  exclude: 'yes'
+index: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
-    {% unless post.published == false %}
+    {% unless post.index == false %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
@@ -30,7 +29,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" %}
+    {% unless page.index == false %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}

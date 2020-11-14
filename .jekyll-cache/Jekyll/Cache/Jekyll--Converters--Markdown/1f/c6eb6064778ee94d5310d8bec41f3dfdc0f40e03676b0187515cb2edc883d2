@@ -1,0 +1,25 @@
+I"W<p>Usually, Django automatically adds an integer <code class="highlighter-rouge">id</code> field to every model, this acts as an auto-incrementing primary key for every object of the model. This means objects of this model can be accessed one by one when they are called by their integer primary key e.g. <code class="highlighter-rouge">get_object_or_404(Model, pk=1)</code> returns the first object of the Model, <code class="highlighter-rouge">get_object_or_404(Model, pk=2)</code> returns the second object of the Model and so on.</p>
+
+<p>This is ok for most cases, but some situations might require a primary key which does not follow this convention. For example, YouTube uses a unique 11 digit base64 id for their videos which makes it harder for web scrapers to loop over every YouTube video which may reveal unlisted videos.</p>
+
+<p>Fortunately, Django supports overriding the built in integer primary key by setting <code class="highlighter-rouge">primary_key=True</code> for any model field.</p>
+
+<p>To implement custom primary key, start with creating a function which returns a unique ID in your desired format. It is important that this function does not take in any variables because we want to preserve the ability to pass this function as an argument without executing it. For organization purposes, it is a good idea to keep any such functions in a separate <code class="highlighter-rouge">utils.py</code> file.</p>
+
+<p><code class="highlighter-rouge">\utils.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">secrets</span>
+
+<span class="k">def</span> <span class="nf">custom_id</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">secrets</span><span class="p">.</span><span class="n">token_urlsafe</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Now simply add a <code class="highlighter-rouge">CharField</code> to your model and set <code class="highlighter-rouge">primary_key=True</code>. Now we can just set <code class="highlighter-rouge">default=custom_id</code> which would pass in the custom id generating function we just created as the default value for the <code class="highlighter-rouge">custom_id</code> field. Note that we are passing in <code class="highlighter-rouge">custom_id</code> function without the brackets <code class="highlighter-rouge">()</code>. This is important as it insures the function executes every time a new object of this model is created resulting in unique id for each object. The primary key can be optionally made uneditable by setting <code class="highlighter-rouge">editable=False</code>.</p>
+
+<p><code class="highlighter-rouge">\models.py</code></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">secrets</span>
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">custom_id</span>
+
+<span class="k">class</span> <span class="nc">MyModel</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+    <span class="n">custom_id</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">primary_key</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">unique</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">custom_id</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

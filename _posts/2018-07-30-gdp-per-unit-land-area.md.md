@@ -3,9 +3,6 @@ layout: post
 title:  "How Efficient Are Economies at Using Their Land – GDP Per Unit Land Area"
 date:   2018-07-30
 tags: ['#data', '#economics']
-scrollindicator: true
-excerpt: > 
-    Amongst more than a dozen metrics that can be used to measure economic prosperity, GDP Per Unit Land Area doesn’t seem to get much attention. Nonetheless, it is an interesting metric to look at and gives a new definition of “rich” countries.
 ---
 
 Amongst more than a dozen metrics that can be used to measure economic prosperity, GDP Per Unit Land Area doesn’t seem to get much attention. Nonetheless, it is an interesting metric to look at and gives a new definition of “rich” countries.
@@ -264,6 +261,6 @@ The table below lists out the calculated value for GDP Per Unit Land Area for al
 
 <p>&nbsp;</p>
 
-Compiled using 2018 data from [The World Bank Group](https://www.worldbank.org/){:target="_blank"} <i class="fa fa-external-link" aria-hidden="true"></i>.
+Compiled using 2018 data from [The World Bank Group](https://www.worldbank.org/){:target="_blank"} <i class="fas fa-external-link-alt"></i>.
 
-[Spreadsheet](https://docs.google.com/spreadsheets/d/1tq4ty-lMsCfV76_DJ07H1uCXw7okTpQ5pFffvEUJVhc/edit?usp=sharing){:target="_blank"} <i class="fa fa-external-link" aria-hidden="true"></i> used to compile this data.
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1tq4ty-lMsCfV76_DJ07H1uCXw7okTpQ5pFffvEUJVhc/edit?usp=sharing){:target="_blank"} <i class="fas fa-external-link-alt"></i> used to compile this data.

@@ -1,22 +1,21 @@
 # Site settings
-title: Ritij Jain
+title: Pudhina Fresh
 description: >
-  Computer science major at Penn State with an interest in robotics, data science, and full-stack software development.
+  A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ritijjain.com" # the base hostname & protocol for your site
+url: "https://ritijjain.github.io/pudhina-fresh/" # the base hostname & protocol for your site
 
 author:
-  fullname: Ritij Jain
-  github: ritijjain
-  linkedin: ritijjain
-  email: ritij@ritijjain.com
+  fullname: Pudhina Fresh
+  github: 
+  linkedin: 
+  email: 
 
 disqus_name: 
 g_track_id: 
 
 # Build settings
-highlighter: null
 markdown: kramdown
 
 defaults:
@@ -25,12 +24,13 @@ defaults:
       path: "_posts"
     values:
       comments: true
-      author: <a href="/">Ritij Jain</a>
+      listed: true
+      author: Ritij Jain
+      author_link: <a href="http://ritijjain.com/">Ritij Jain<a>
   -
     scope:
       path: "pages/redirects"
     values:
       layout: redirect
-      robots: "noindex"
-      sitemap:
-        exclude: 'yes'
+      index: false
+      listed: false

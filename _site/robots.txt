@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ritijjain.github.io/pudhina-fresh//sitemap.xml
+
+    -----
+   | . . |
+    -----
+  \--|-|--/
+     | |
+  |-------|

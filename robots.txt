@@ -1,7 +1,6 @@
 ---
 layout: null
-sitemap:
-  exclude: 'yes'
+index: false
 ---
 User-agent: *
 Disallow:

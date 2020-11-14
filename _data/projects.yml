@@ -1,0 +1,66 @@
+- name: ConnectPie Web App
+  id: cp
+  main_link: https://connectpie.herokuapp.com/
+  img_src: "/assets/img/connectpie-page.png"
+  description_less: >
+    <p>A Django web app that lets college students create and search class discussion pages where they can post informative notes and links to group chats.</p>
+  description_more: >
+    <p>Gathered over 2,000 page views, 350 users in the first 3 days of release.</p>
+    <p><i>Backend:</i> Python, Django; <i>Frontend:</i> Bootstrap 4; <i>Deployment:</i> Heroku, PostgreSQL</p>
+
+    <a href="https://connectpie.herokuapp.com/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="https://github.com/ritijjain/connect-pie" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+
+  tags: >
+    <span class="badge badge-info">#python</span>
+    <span class="badge badge-info">#django</span>
+    <span class="badge badge-success">#open-source</span>
+
+- name: Pudina Fresh Jekyll Theme
+  id: pf
+  main_link: https://github.com/ritijjain/pudhina-fresh
+  img_src: 
+  description_less: >
+    <p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. Added project page, speed optimizations, updated styles amongst other things.</p>
+  description_more: >
+    <p>This site uses this theme.</p>
+
+    <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+
+  tags: >
+    <span class="badge badge-info">#jekyll</span>
+    <span class="badge badge-success">#open-source</span>
+
+- name: Python Ranking Algorithm
+  id: rp
+  main_link: 
+  img_src: 
+  description_less: >
+    <p>A modular object-oriented Python ranking algorithm that aims to deliver speedy ranking based on user set custom preferences.</p>
+    
+  description_more: >
+    <p>Initiated the project, currently working in a team of 3 to release the first open source version.</p>
+
+  tags: >
+    <span class="badge badge-info">#python</span>
+    <span class="badge badge-secondary">#in-progress</span>
+  
+- name: WeatherPie Weather App
+  id: wp
+  main_link: https://weatherpie.herokuapp.com
+  img_src: "/assets/img/weatherpie-page.png"
+  description_less: >
+    <p>A Django weather app equipped with a clothing-suggestion algorithm that delivers a personalized weather forecast and suggests clothing based on the weather.</p>
+  description_more: >
+    <p><i>Backend:</i> Python, Django; <i>Frontend:</i> Bootstrap 4; <i>Deployment:</i> Heroku, PostgreSQL</p>
+
+
+    <a href="https://weatherpie.herokuapp.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="https://github.com/ritijjain/weather-pie" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://ritijjain.com/2020/07/27/weatherpie.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+
+  tags: >
+    <span class="badge badge-info">#python</span>
+    <span class="badge badge-info">#django</span>
+    <span class="badge badge-success">#open-source</span>

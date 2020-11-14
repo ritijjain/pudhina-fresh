@@ -6,7 +6,6 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
-<br>
 <p id="describe-text">Computer science major at Penn State with an interest in robotics, data science, and full-stack software development.</p>
 <br>
 Hello! I’m Ritij Jain, a second-year computer science student at The Pennsylvania State University.
