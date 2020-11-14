@@ -3,8 +3,8 @@ title: Pudhina Fresh
 description: >
   A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ritijjain.github.io/pudhina-fresh/" # the base hostname & protocol for your site
+baseurl: "/pudhina-fresh" # the subpath of your site, e.g. /blog/
+url: "https://ritijjain.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Pudhina Fresh
