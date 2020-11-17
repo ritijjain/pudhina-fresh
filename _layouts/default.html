@@ -8,6 +8,12 @@
 <div class="wrapper">
 {% include header.html %}
 {{ content }}
+<br>
+{% if page.comments %}
+{% include post/disqus.html %}
+{% endif %}
+<br>
+{% include page/about.html %}
 </div>
 </body>
 </html>

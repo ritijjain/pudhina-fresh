@@ -10,7 +10,7 @@ Amongst more than a dozen metrics that can be used to measure economic prosperit
 ## GDP Per Unit Land Area Map
 The data is highly varied which makes it impossible to use a linear scale for the map. To make it easier to compare different countries, the map below uses a logarithmic scale meaning an increase of one on this scale is equal to a ten-fold increase in the actual values of GDP per Unit Land Area.
 
-![GDP Per Unit Land Area Map (Logarithmic Scale)](/assets/img/gdp-per-unit-area-map.png){:target="_blank"}
+![GDP Per Unit Land Area Map (Logarithmic Scale)]({{ site.baseurl }}/assets/img/gdp-per-unit-area-map.png){:target="_blank"}
 *Light Yellow – Low, Orange – Medium, Dark Red – High*
 
 It is clear which countries are doing a good job of using their land to benefit their economies. Most of Europe and the two Asian powerhouses, South Korea and Japan come up at the top. Although not visible on the map, the top three: Macao, Singapore, and Hong Kong top the list by far. It is no coincidence that these three are “city-states” which explains their insanely large GDP’s in proportion to their miniature sizes.

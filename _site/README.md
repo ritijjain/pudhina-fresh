@@ -1,9 +1,7 @@
-# Pudhina Fresh
-A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
-[Read more](https://ritijjain.com/2020/09/12/pudhina-fresh.html).
+## ritijjain.com
+My blog/website. Powered by [Jekyll](https://jekyllrb.com/).
 
-# Quick Start
-```
-bundle exec jekyll serve
-```
-Navigate to http://localhost:4000/
+© 2020, Ritij Jain | Adapted from Pudhina theme by Knhash.
+
+## License
+[MIT](LICENSE) 

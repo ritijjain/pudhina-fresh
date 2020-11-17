@@ -5,7 +5,7 @@ date:   2020-07-27
 tags: ['#app', '#django']
 ---
 
-![An outdoor weather meter (Logarithmic Scale)](/assets/img/weather-meter.jpg){:target="_blank"}
+![An outdoor weather meter (Logarithmic Scale)]({{ site.baseurl }}/assets/img/weather-meter.jpg){:target="_blank"}
 *An outdoor weather meter. Photograph: Ralph Hutter*
 
 Most weather apps do a decent job delivering weather conditions and the forecast but leave it up to the user to interpret them and decide what clothing in their closet might work that day. However, this can get confusing as several weather metrics like temperature, rain, snow, UVI index, wind speed, etc. have to be considered to get a full picture. When doing this for the current weather and the forecast several hours or days ahead, it can get messy rather fast.

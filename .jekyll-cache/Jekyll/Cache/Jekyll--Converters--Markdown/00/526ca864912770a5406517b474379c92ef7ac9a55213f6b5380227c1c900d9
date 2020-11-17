@@ -1,90 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Pudhina Fresh Theme | Ritij Jain</title>
-
-<meta name="description" content="Computer science major at Penn State with an interest in robotics, data science, and full-stack software development.
-">
-<meta name="keywords" content="#tools, #jekyll">
-<link rel="canonical" href="/2020/09/12/pudhina-fresh.html">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171410516-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171410516-1');
-</script>
-
-
-<!--Feature assets-->
-<!--Bootstrap JS-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-<!--Font Awesome-->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-<!--Highlight.js-->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/default.min.css">
-<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-<!--Main assets-->
-<link rel="icon" type="image/jpeg" href="/favicon.png"/>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="/assets/css/main.css">
-</head>
-<body>
-<div class="wrapper">
-<header class="header">
-<div class="navigation">
-<a href="/" class="logo">Ritij Jain</a>
-<ul class="menu">
-<li class="menu__entry"><a href="/">about</a></li>
-<li class="menu__entry"><a href="/projects">projects</a></li>
-<li class="menu__entry"><a href="/posts">posts</a></li>
-</ul>
-</div>
-<ul class="social-links">
-
-<a href="mailto:ritij@ritijjain.com" class="social-links__entry" target="_blank">
-<i class="fas fa-envelope-square"></i>
-</a>
-
-
-<a href="https://github.com/ritijjain" class="social-links__entry" target="_blank">
-<i class="fab fa-github"></i>
-</a>
-
-
-<a href="https://in.linkedin.com/in/ritijjain" class="social-links__entry" target="_blank">
-<i class="fab fa-linkedin-in"></i>
-</a>
-
-</ul>
-</header>
-<br>
-<br>
-<h1 class="post-title">
-    <div class="post-title__text">Pudhina Fresh Theme</div>
-</h1>
-<p class="post-title__subtitle">Published Sep 12, 2020  (Updated Nov 17, 2020)  by <a href="https://ritijjain.com/">Ritij Jain<a><br />
-
-
-    <span class="badge badge-info">#tools</span>
-
-    <span class="badge badge-info">#jekyll</span>
-
-<hr>
-<br>
-<p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. This site uses this theme. Pudhina Fresh is open source &gt; &gt; &gt; <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank">Github Repository</a> <i class="fas fa-external-link-alt"></i>.</p>
+I"s<p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. This site uses this theme. Pudhina Fresh is open source &gt; &gt; &gt; <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank">Github Repository</a> <i class="fas fa-external-link-alt"></i>.</p>
 
 <h2 id="powered-by-jekyll">Powered by Jekyll</h2>
 <p>Jekyll is a simple yet feature-rich static site generator for personal, project, or organization sites.</p>
@@ -120,16 +34,15 @@ Collapsible cards: Project cards smoothly expand on click to reveal additional i
 </code></pre></div></div>
 <p>In line <code class="highlighter-rouge">code</code> looks great too. Even <code class="highlighter-rouge">longer lines of inline code ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</code> work well.</p>
 
-<h2 id="other-features">Other Features</h2>
-<ul>
-  <li>Create redirect pages using the <code class="highlighter-rouge">_layouts/redirect</code> template. Recommended to organize these under <code class="highlighter-rouge">_pages/redirects</code>.</li>
-  <li>Pages and posts can have an <code class="highlighter-rouge">updated</code> field with the update date in addition to the <code class="highlighter-rouge">date</code> of original posting.</li>
-  <li>Disqus comments: Enable by setting up <code class="highlighter-rouge">disqus_name</code> in <code class="highlighter-rouge">_config.yml</code> and setting <code class="highlighter-rouge">comments: true</code> on supported pages.</li>
-  <li>Google Analytics: Enable by setting tracking id <code class="highlighter-rouge">g_track_id</code> in <code class="highlighter-rouge">_config.yml</code>.</li>
-</ul>
-
 <h2 id="clean-looking-styles">Clean Looking Styles</h2>
-<p>Styles are based on modern conventions and designed to be easy on the eye.</p>
+<blockquote>
+  <p>This is how blockquotes will look.</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <blockquote>
+    <p>Nested blockquotes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </blockquote>
+</blockquote>
 
 <table>
   <thead>
@@ -164,15 +77,6 @@ Collapsible cards: Project cards smoothly expand on click to reveal additional i
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<blockquote>
-  <p>This is how blockquotes will look.</p>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <blockquote>
-    <p>Nested blockquotes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </blockquote>
-</blockquote>
-
 <h1 id="heading-1">Heading 1</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <h2 id="heading-2">Heading 2</h2>
@@ -185,36 +89,4 @@ Collapsible cards: Project cards smoothly expand on click to reveal additional i
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <h6 id="heading-6">Heading 6</h6>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<br>
-
-<div id="disqus_thread"></div>
-<script>
-
-
-var disqus_config = function () {
-this.page.url = 'http://localhost:4000/assets/style.css';
-this.page.identifier = '/2020/09/12/pudhina-fresh.html'; 
-};
-
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://ritijjain.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
-
-<br>
-<div class="about">
-<div class="about__devider">*****</div>
-<div class="about__text">
-<br>
-&#169 2020, Ritij Jain | <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme for Jekyll.
-</div>
-</div>
-</div>
-</body>
-</html>
+:ET
