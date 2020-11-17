@@ -1,10 +1,10 @@
 ## Pudhina Fresh
 A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
 
-![Project Page]({{ site.baseurl }}/assets/img/dis1.png)
-![Project Page]({{ site.baseurl }}/assets/img/project-page.png)
-![Project Page]({{ site.baseurl }}/assets/img/dis2.png)
-![Project Page]({{ site.baseurl }}/assets/img/dis3.png)
+![Project Page](/assets/img/dis1.png)
+![Project Page](/assets/img/project-page.png)
+![Project Page](/assets/img/dis2.png)
+![Project Page](/assets/img/dis3.png)
 
 ## Features
 * Masonry style project page with collapsible cards.
