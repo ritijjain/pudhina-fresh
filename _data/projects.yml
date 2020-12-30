@@ -1,27 +1,25 @@
-- name: ConnectPie Web App
-  id: cp
-  main_link: https://connectpie.herokuapp.com/
-  img_src: "/assets/img/connectpie-page.png"
+- name: Project One
+  id: p1
+  main_link: /
+  img_src: /assets/img/connectpie-page.png
   description_less: >
-    <p>A Django web app that lets college students create and search class discussion pages where they can post informative notes and links to group chats.</p>
+    <p>This part of the project description is visible at all times.</p>
   description_more: >
-    <p>Gathered over 2,000 page views, 350 users in the first 3 days of release.</p>
-    <p><i>Backend:</i> Python, Django; <i>Frontend:</i> Bootstrap 4; <i>Deployment:</i> Heroku, PostgreSQL</p>
+    <p>This part is only seen when you click on the project card.</p>
 
-    <a href="https://connectpie.herokuapp.com/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="https://github.com/ritijjain/connect-pie" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
   tags: >
-    <span class="badge badge-info">#python</span>
-    <span class="badge badge-info">#django</span>
-    <span class="badge badge-success">#open-source</span>
+    <span class="badge badge-info">#tag1</span>
+    <span class="badge badge-success">#tag2</span>
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
   main_link: https://github.com/ritijjain/pudhina-fresh
   img_src: 
   description_less: >
-    <p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. Added project page, speed optimizations, updated styles amongst other things.</p>
+    <p>A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. Added project page, speed optimizations, updated styles amongst other things.</p>
   description_more: >
     <p>This site uses this theme.</p>
 
@@ -32,35 +30,36 @@
     <span class="badge badge-info">#jekyll</span>
     <span class="badge badge-success">#open-source</span>
 
-- name: Python Ranking Algorithm
-  id: rp
-  main_link: 
+- name: Project Two
+  id: p2
+  main_link: /
   img_src: 
   description_less: >
-    <p>A modular object-oriented Python ranking algorithm that aims to deliver speedy ranking based on user set custom preferences.</p>
-    
+    <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
   description_more: >
-    <p>Initiated the project, currently working in a team of 3 to release the first open source version.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
   tags: >
-    <span class="badge badge-info">#python</span>
-    <span class="badge badge-secondary">#in-progress</span>
-  
-- name: WeatherPie Weather App
-  id: wp
-  main_link: https://weatherpie.herokuapp.com
-  img_src: "/assets/img/weatherpie-page.png"
+    <span class="badge badge-info">#tag3</span>
+    <span class="badge badge-secondary">#tag4</span>
+
+- name: Project Three
+  id: p3
+  main_link: /
+  img_src: /assets/img/weatherpie-page.png
   description_less: >
-    <p>A Django weather app equipped with a clothing-suggestion algorithm that delivers a personalized weather forecast and suggests clothing based on the weather.</p>
+    <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
   description_more: >
-    <p><i>Backend:</i> Python, Django; <i>Frontend:</i> Bootstrap 4; <i>Deployment:</i> Heroku, PostgreSQL</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-
-    <a href="https://weatherpie.herokuapp.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="https://github.com/ritijjain/weather-pie" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="https://ritijjain.com/2020/07/27/weatherpie.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+    <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
   tags: >
-    <span class="badge badge-info">#python</span>
-    <span class="badge badge-info">#django</span>
-    <span class="badge badge-success">#open-source</span>
+    <span class="badge badge-info">#tag2</span>
+    <span class="badge badge-secondary">#tag4</span>

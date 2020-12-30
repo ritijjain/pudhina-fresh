@@ -1,5 +1,5 @@
 ## Pudhina Fresh
-A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
+A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
 
 ![Project Page](/assets/img/dis1.png)
 ![Project Page](/assets/img/project-page.png)

@@ -3,24 +3,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/2020/10/31/django-custom-pk.html</loc>
+      <loc>http://localhost:4000/2020/12/25/styles.html</loc>
       
-        <lastmod>2020-10-31T00:00:00+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.7</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/2020/09/12/pudhina-fresh.html</loc>
-      
-        <lastmod>2020-09-12T00:00:00+05:30</lastmod>
+        <lastmod>2020-12-25T00:00:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -33,24 +18,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/2020/08/17/ib-examples.html</loc>
+      <loc>http://localhost:4000/2020/04/02/sample.html</loc>
       
-        <lastmod>2020-08-17T00:00:00+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.7</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/2020/07/27/weatherpie.html</loc>
-      
-        <lastmod>2020-07-27T00:00:00+05:30</lastmod>
+        <lastmod>2020-04-02T00:00:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -63,9 +33,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/2020/05/14/gpa-calculator.html</loc>
+      <loc>http://localhost:4000/2020/04/02/updated.html</loc>
       
-        <lastmod>2020-05-14T00:00:00+05:30</lastmod>
+        <lastmod>2020-04-02T00:00:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -78,9 +48,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/2018/07/30/gdp-per-unit-land-area.md.html</loc>
+      <loc>http://localhost:4000/2020/04/01/long-title.html</loc>
       
-        <lastmod>2018-07-30T00:00:00+05:30</lastmod>
+        <lastmod>2020-04-01T00:00:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -102,7 +72,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-11-17T23:18:44+05:30</lastmod>
+        <lastmod>2020-12-31T02:33:07+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -119,7 +89,7 @@
     <url>
       <loc>http://localhost:4000/posts/</loc>
       
-        <lastmod>2020-11-17T23:18:44+05:30</lastmod>
+        <lastmod>2020-12-31T02:33:07+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -134,7 +104,7 @@
     <url>
       <loc>http://localhost:4000/projects/</loc>
       
-        <lastmod>2020-11-17T23:18:44+05:30</lastmod>
+        <lastmod>2020-12-31T02:33:07+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>

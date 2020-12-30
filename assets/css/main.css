@@ -67,11 +67,12 @@
   .navigation {
     float: left; }
 
-  .logo {
+  .logo, a.logo:hover {
     font-size: 300%;
     font-weight: 700;
     color: #16a085;
-    display: block; }
+    display: block;
+    text-decoration: none; }
 
   .menu {
     color: #828282;

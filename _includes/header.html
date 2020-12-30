@@ -1,6 +1,10 @@
 <header class="header">
 <div class="navigation">
+{% if page.full_logo %}
 <a href="{{ site.baseurl }}/" class="logo">{{ site.title }}</a>
+{% else %}
+<a href="{{ site.baseurl }}/" class="logo">{{ site.short_logo }}</a>
+{% endif %}
 <ul class="menu">
 <li class="menu__entry"><a href="{{ site.baseurl}}/">about</a></li>
 <li class="menu__entry"><a href="{{ site.baseurl }}/projects">projects</a></li>
