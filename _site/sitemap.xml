@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/2020/12/25/styles.html</loc>
+      <loc>http://localhost:4000/2020/12/25/styles.html</loc>
       
         <lastmod>2020-12-25T00:00:00+05:30</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/2020/04/02/sample.html</loc>
+      <loc>http://localhost:4000/2020/04/02/sample.html</loc>
       
         <lastmod>2020-04-02T00:00:00+05:30</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/2020/04/02/updated.html</loc>
+      <loc>http://localhost:4000/2020/04/02/updated.html</loc>
       
         <lastmod>2020-04-02T00:00:00+05:30</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/2020/04/01/long-title.html</loc>
+      <loc>http://localhost:4000/2020/04/01/long-title.html</loc>
       
         <lastmod>2020-04-01T00:00:00+05:30</lastmod>
       
@@ -70,9 +70,9 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/</loc>
+      <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-12-31T02:50:57+05:30</lastmod>
+        <lastmod>2020-12-31T02:56:07+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,9 +87,9 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/posts/</loc>
+      <loc>http://localhost:4000/posts/</loc>
       
-        <lastmod>2020-12-31T02:50:57+05:30</lastmod>
+        <lastmod>2020-12-31T02:56:07+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -102,9 +102,9 @@
   
     
     <url>
-      <loc>https://ritijjain.github.io/projects/</loc>
+      <loc>http://localhost:4000/projects/</loc>
       
-        <lastmod>2020-12-31T02:50:57+05:30</lastmod>
+        <lastmod>2020-12-31T02:56:07+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
