@@ -1,4 +1,10 @@
-I""<p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. This site uses this theme. Pudhina Fresh is open source &gt; &gt; &gt; <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank">Github Repository</a> <i class="fas fa-external-link-alt"></i>.</p>
+I"½%<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>A Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. This site uses this theme. Pudhina Fresh is open source &gt; &gt; &gt; <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank">Github Repository</a> <i class="fas fa-external-link-alt"></i>.</p>
 
 <h2 id="powered-by-jekyll">Powered by Jekyll</h2>
 <p>Jekyll is a simple yet feature-rich static site generator for personal, project, or organization sites.</p>
@@ -6,11 +12,11 @@
 <p>Learn more about <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> <i class="fas fa-external-link-alt"></i>.</p>
 
 <h2 id="fast">Fast</h2>
-<p><img src="/assets/img/google-pagespeed-insights.png" alt="Google PageSpeed Insights" target="_blank" />
+<p><img src="/pudhina-fresh/assets/img/google-pagespeed-insights.png" alt="Google PageSpeed Insights" target="_blank" />
 Performance score by <a href="https://developers.google.com/speed/docs/insights/v5/about" target="_blank">Google PageSpeed Insights</a> <i class="fas fa-external-link-alt"></i>.</p>
 
 <h2 id="beautiful-masonry-style-project-page">Beautiful Masonry Style Project Page</h2>
-<p><img src="/assets/img/project-page.png" alt="Project Page" target="_blank" />
+<p><img src="/pudhina-fresh/assets/img/project-page.png" alt="Project Page" target="_blank" />
 Collapsible cards: Project cards smoothly expand on click to reveal additional information about the project. Data used for generating cards is stored in <code class="highlighter-rouge">_data/projects.yml</code>.</p>
 
 <p>Card styles and JS powered by <a href="https://getbootstrap.com/">Bootstrap</a> <i class="fas fa-external-link-alt"></i>.</p>
