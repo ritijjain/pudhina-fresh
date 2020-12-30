@@ -8,7 +8,9 @@ permalink: /projects/
 <div class="card-columns">
   {% for project in site.data.projects %}
   <div class="card mb-4">
-    <img class="card-img-top" src="{{ site.baseurl }}/{{ project.img_src }}">
+    {% if project.img_src %}
+    <img class="card-img-top" src="{{ site.baseurl }}{{ project.img_src }}">
+    {% endif %}
     <div class="card-body">
       {{ project.tags }}
       <h5><a data-toggle="collapse" class="stretched-link" href="#{{ project.id }}" role="button" aria-expanded="false" aria-controls="collapseExample"><b>{{ project.name }}</b></a></h5>

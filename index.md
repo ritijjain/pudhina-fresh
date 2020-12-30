@@ -7,11 +7,11 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
-<p id="describe-text">A minimal yet feature-rich Jekyll theme made for personal websites and blogs.Adapted from Pudhina theme by Knhash.</p>
+<p id="describe-text">A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.</p>
 <br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Checkout [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
 
-A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash. Checkout [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh). Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et magna aliqua. Incididunt ut labore et [dolore](#) aler tempor incididunt et [email@example.com](#).
 
 Find me on [LinkedIn](https://www.linkedin.com){:target="_blank"}, [GitHub](https://github.com/ritijjain/pudhina-fresh){:target="_blank"}, [Instagram](http://instagram.com){:target="_blank"}, and [Twitter](https://twitter.com){:target="_blank"}.
 
