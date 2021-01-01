@@ -20,7 +20,7 @@ markdown: kramdown
 defaults:
   -
     scope:
-      path: "_posts"
+      path: _posts
     values:
       comments: true
       listed: true
@@ -28,7 +28,7 @@ defaults:
       author_link: <a href="https://ritijjain.com/">Ritij Jain<a>
   -
     scope:
-      path: "pages/redirects"
+      path: pages/redirects
     values:
       layout: redirect
       index: false

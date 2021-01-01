@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: ritij jain, ritij, web developer, software engineer, penn state
+tags: jekyll theme, jekyll, pudhina fresh theme
 full_logo: true
 title: 
 subtitle: 

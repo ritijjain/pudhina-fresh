@@ -4,6 +4,6 @@
 <p class="post-title__subtitle">Published {{ page.date | date: "%b %e, 20%y" }} {% if page.updated %} (Updated {{ page.updated | date: "%b %e, %y" }}20) {% endif %} by {{page.author_link}}<br />
 
 {% for tag in page.tags %}
-    <span class="badge badge-info">{{ tag }}</span>
+    <span class="badge badge-info">#{{ tag }}</span>
 {% endfor %}
 <hr>
