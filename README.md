@@ -11,10 +11,12 @@ A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Ad
 * Clean looking styles based on modern conventions.
 * Read full [post on Pudhina Fresh](https://ritijjain.com/2020/09/12/pudhina-fresh.html).
 
-## Credits
-Adapted from [Pudhina theme](https://github.com/knhash/Pudhina) by Knhash.
-
 ## Quick Start
 * Install [jekyll](https://jekyllrb.com/docs/installation/).
 * `bundle exec jekyll serve`
 * Navigate to http://localhost:4000/
+
+## Credits and License
+Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina){:target="_blank"} by [Shashank S](https://github.com/knhash){:target="_blank"}.
+
+[MIT License](https://github.com/ritijjain/pudhina-fresh/blob/master/LICENSE)
