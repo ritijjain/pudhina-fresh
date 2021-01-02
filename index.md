@@ -7,7 +7,7 @@ subtitle:
 sitemap:
   priority: 0.9
 ---
-<p id="describe-text">A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.</p>
+<p id="describe-text">A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
 <br>
 A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Checkout [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
 
