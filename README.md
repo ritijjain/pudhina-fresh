@@ -17,6 +17,6 @@ A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Ad
 * Navigate to http://localhost:4000/
 
 ## Credits and License
-Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina){:target="_blank"} by [Shashank S](https://github.com/knhash){:target="_blank"}.
+Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina) by [Shashank S](https://github.com/knhash).
 
 [MIT License](https://github.com/ritijjain/pudhina-fresh/blob/master/LICENSE)
