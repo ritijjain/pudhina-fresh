@@ -4,5 +4,14 @@ layout: default
 <br>
 <br>
 {% include post/title.html %}
+
+{% if page.splash_img_source %}
+<img id="splash-img" src="{{ site.baseurl }}{{ page.splash_img_source }}" alt="{{ page.splash_img_caption }}">
+{% endif %}
+
+{% if page.splash_img_caption %}
+<p class="text-muted caption">{{ page.splash_img_caption }}</p>
+{% endif %}
+
 <br>
 {{ content }}

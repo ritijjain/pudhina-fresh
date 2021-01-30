@@ -240,6 +240,14 @@
   /* Card hover effect */
   .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
+  
+  #splash-img {
+    border-radius: 3px;
+  }
+
+  .caption {
+    text-align: center;
+  }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
   .glitch {

@@ -3,8 +3,8 @@ title: Pudhina Fresh
 short_logo: P.
 description: >
   A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-baseurl: "/pudhina-fresh" # the subpath of your site, e.g. /blog/
-url: "https://ritijjain.github.io" # the base hostname & protocol for your site
+baseurl: "/pudhina-fresh" # The subpath of your site, e.g. /blog/.
+url: "https://ritijjain.github.io" # The base hostname & protocol for your site.
 
 author:
   fullname: Ritij Jain
@@ -31,5 +31,5 @@ defaults:
       path: pages/redirects
     values:
       layout: redirect
-      index: false
-      listed: false
+      index: false # When false, <meta name="robots" content="noindex"> is added to the page.
+      listed: false # Defines if page is listed on the sitemap.
