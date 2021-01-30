@@ -1,24 +1,28 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.layout == "post" %}{{ page.content | strip_html | truncatewords: 25, "" }}{% else %}{{ site.description }}{% endif %}">
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+{% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+
 {% if page.c_title %}
 <title>{{ page.c_title }}</title>
 {% else %}
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 {% endif %}
-<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 
+{% if g_track_id %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.g_track_id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', '{{ site.g_track_id }}');
 </script>
+{% endif %}
 
 {% if page.index == false %}
 <meta name="robots" content="noindex">
