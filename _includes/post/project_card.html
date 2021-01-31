@@ -4,7 +4,7 @@
     {% endif %}
     <div class="card-body">
       {% for tag in project.tags %}
-      <a href="{{ site.baseurl }}/tags/{{ tag.name }}" class="badge badge-{{ tag.style }}">#{{ tag.name }}</a>
+        {% include tag_list.html %}
       {% endfor %}
       <h5><a data-toggle="collapse" class="stretched-link" href="#{{ project.id }}" role="button" aria-expanded="false"
           aria-controls="collapseExample"><b>{{ project.name }}</b></a></h5>
