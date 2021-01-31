@@ -10,9 +10,13 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: >
-    <span class="badge badge-info">#tag1</span>
-    <span class="badge badge-success">#tag2</span>
+  tags:
+    - 
+      name: tag1
+      style: primary
+    - 
+      name: tag2
+      style: secondary
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
@@ -26,9 +30,13 @@
     <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: >
-    <span class="badge badge-info">#jekyll</span>
-    <span class="badge badge-success">#open-source</span>
+  tags:
+    - 
+      name: jekyll
+      style: info
+    - 
+      name: open-source
+      style: success
 
 - name: Project Two
   id: p2
@@ -43,9 +51,13 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: >
-    <span class="badge badge-info">#tag3</span>
-    <span class="badge badge-secondary">#tag4</span>
+  tags:
+    - 
+      name: tag3
+      style: warning
+    - 
+      name: tag4
+      style: danger
 
 - name: Project Three
   id: p3
@@ -60,6 +72,10 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: >
-    <span class="badge badge-info">#tag2</span>
-    <span class="badge badge-secondary">#tag4</span>
+  tags:
+    - 
+      name: tag2
+      style: secondary
+    - 
+      name: tag4
+      style: danger

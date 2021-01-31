@@ -1,0 +1,39 @@
+---
+layout: page
+---
+{% assign post_exists = false %}
+{% assign project_exists = false %}
+
+<h1><b>Posts</b></h1>
+<br>
+{% for post in site.posts %}
+    {% unless post.listed == false %}
+        {% for tag in post.tags %}
+            {% if tag.name == page.tag %}
+                {% include post/post_card.html %}
+                {% assign post_exists = true %}
+            {% endif %}
+        {% endfor %} 
+    {% endunless %}
+{% endfor %}
+{% if post_exists == false %}
+<p>No posts with this tag.</p>
+{% endif %}
+
+<h1><b>Projects</b></h1>
+<br>
+<div class="card-columns">
+    {% for project in site.data.projects %}
+    {% unless project.listed == false %}
+        {% for tag in project.tags %}
+            {% if tag.name == page.tag %}
+                {% include post/project_card.html %}
+                {% assign project_exists = true %}
+            {% endif %}
+        {% endfor %} 
+    {% endunless %}
+    {% endfor %}
+</div>
+{% if project_exists == false %}
+<p>No projects with this tag.</p>
+{% endif %}

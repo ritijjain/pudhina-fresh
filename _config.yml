@@ -33,3 +33,10 @@ defaults:
       layout: redirect
       index: false # When false, <meta name="robots" content="noindex"> is added to the page.
       listed: false # Defines if page is listed on the sitemap.
+  -
+    scope:
+      path: pages/tags
+    values:
+      layout: tag
+      index: false # When false, <meta name="robots" content="noindex"> is added to the page.
+      listed: false # Defines if page is listed on the sitemap.
