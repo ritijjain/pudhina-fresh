@@ -1,26 +1,24 @@
-- name: Project One
-  id: p1
-  main_link: /
-  img_src: /assets/img/connectpie-page.png
-  description_less: >
-    <p>This part of the project description is visible at all times.</p>
-  description_more: >
-    <p>This part is only seen when you click on the project card.</p>
+- name: Project One # Project name, also used as heading.
+  id: p1 # Project id. Must be unique amongst the projects.
+  img_src: /assets/img/connectpie-page.png # Optional image.
+  description_less: > # Description shown at all times.
+    <p>This part of the project description is visible at all times.</p> 
+  description_more: > # Description shown only when the project card is expanded.
+    <p>This part is only seen when you click on the project card.</p> 
 
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags:
+  tags: # List your tag name along with their Bootsrap contextual style.
     - 
-      name: tag1
-      style: primary
+      name: tag1 # tag name.
+      style: primary # chose from: primary, secondary, success, danger, warning, info, light, dark
     - 
       name: tag2
       style: secondary
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
-  main_link: https://github.com/ritijjain/pudhina-fresh
   img_src: 
   description_less: >
     <p>A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
@@ -40,7 +38,6 @@
 
 - name: Project Two
   id: p2
-  main_link: /
   img_src: 
   description_less: >
     <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
@@ -61,7 +58,6 @@
 
 - name: Project Three
   id: p3
-  main_link: /
   img_src: /assets/img/weatherpie-page.png
   description_less: >
     <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
