@@ -13,7 +13,7 @@ A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 ![Project Page](/assets/img/dis5.png)
 
 ## Features
-### Everything From [Pudhina Fresh](https://github.com/knhash/Pudhina)
+### Everything From [Pudhina](https://github.com/knhash/Pudhina)
 * Simple, minimal and clean
 * Blog posts categorized (Pudhina Fresh uses tags instead)
 * Responsive
