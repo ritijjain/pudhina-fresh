@@ -31,7 +31,7 @@ A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 * Create redirect pages using the `_layouts/redirect` template.
 * Support for Disqus comments and Google Analytics.
 * Redesigned table, heading, subheading, link, quote, and text styles.
-* Just as fast as the original – 90+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.com%2F).
+* Just as fast as the original – 95+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop).
 
 ## Docs
 Read the [docs post](https://ritijjain.github.io/pudhina-fresh/2020/07/01/docs.html).
