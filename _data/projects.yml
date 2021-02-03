@@ -40,7 +40,7 @@
   id: p2
   img_src: 
   description_less: >
-    <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
+    <p>Refer to docs to learn how to add your own projects.</p>
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -53,8 +53,8 @@
       name: tag3
       style: warning
     - 
-      name: tag4
-      style: danger
+      name: docs
+      style: primary
 
 - name: Project Three
   id: p3
