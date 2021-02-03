@@ -1,19 +1,17 @@
 ---
 layout: page
-tags: jekyll theme, jekyll, pudhina fresh theme
 full_logo: true
 title: 
 subtitle: 
+description: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 sitemap:
   priority: 0.9
 ---
 <p id="describe-text">A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
 <br>
-A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Checkout [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
+This is the index page, describe yourself in few sentences here. Perhaps talk about what you do for living and what you do in your free time. Maybe even leave an [email@address.com](#) or a link to your [resume](#).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et magna aliqua. Incididunt ut labore et [dolore](#) aler tempor incididunt et [email@example.com](#).
-
-Find me on [LinkedIn](https://www.linkedin.com){:target="_blank"}, [GitHub](https://github.com/ritijjain/pudhina-fresh){:target="_blank"}, [Instagram](http://instagram.com){:target="_blank"}, and [Twitter](https://twitter.com){:target="_blank"}.
+Pudhina Fresh is free and open-source. Checkout [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
 
 <br>
 <br>
