@@ -1,5 +1,5 @@
 # Pudhina Fresh
-A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
+A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 
 * Minimal design based on Bootstrap 4.
 * Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
