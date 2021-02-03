@@ -5,17 +5,19 @@ A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Ad
 * Minimal design based on Bootstrap 4.
 * Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
 * Categorize posts and projects using tags and view them on tag pages.
+* Fast 95+ Google PageSpeed Insight score – [Test it out yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
 
 
 ![Project Page](/assets/img/dis1.png)
-![Project Page](/assets/img/project-page.png)
 ![Project Page](/assets/img/dis2.png)
-![Project Page](/assets/img/dis3.png)
+![Project Page](/assets/img/dis2.png)
+![Project Page](/assets/img/dis4.png)
+![Project Page](/assets/img/dis5.png)
 
 ## Features
 ### Everything From [Pudhina Fresh](https://github.com/knhash/Pudhina)
 * Simple, minimal and clean
-* Blog posts categorised (Pudhina Fresh uses tags instead)
+* Blog posts categorized (Pudhina Fresh uses tags instead)
 * Responsive
 * Syntax Highlighter (using highlight.js).
 * Font-Awesome Icons.
