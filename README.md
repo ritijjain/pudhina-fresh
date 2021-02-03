@@ -1,28 +1,42 @@
-## Pudhina Fresh
-A minimal yet feature-rich Jekyll theme made for personal websites and blogs. Adapted from Pudhina theme by Knhash.
+# Pudhina Fresh
+A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+
+* Minimal design based on Bootstrap 4.
+* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Categorize posts and projects using tags and view them on tag pages.
+* 95+ Google PageSpeed Insight score 🔥 – [Test it out yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
 
 ![Project Page](/assets/img/dis1.png)
-![Project Page](/assets/img/project-page.png)
 ![Project Page](/assets/img/dis2.png)
-![Project Page](/assets/img/dis3.png)
+![Project Page](/assets/img/dis2.png)
+![Project Page](/assets/img/dis4.png)
+![Project Page](/assets/img/dis5.png)
 
 ## Features
-* Everything that already comes with [Pudhina theme](https://github.com/knhash/Pudhina) and
-* Masonry style projects page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
-* Customizable post meta data – tags, published date, updated date, author.
-* Responsive mobile friendly design.
-* Code blocks powered by [highlight.js](https://highlightjs.org/) accompanied by matching styles for in-line code.
-* Create redirect pages using the `_layouts/redirect` template.
+### Everything From [Pudhina Fresh](https://github.com/knhash/Pudhina)
+* Simple, minimal and clean
+* Blog posts categorized (Pudhina Fresh uses tags instead)
+* Responsive
+* Syntax Highlighter (using highlight.js).
+* Font-Awesome Icons.
+* Glitchy 404 page
+
+### Plus Much More
+* Minimal design based on Bootstrap 4.
 * Support for Bootstrap elements and bootstrap compatible styles.
+* Responsive mobile friendly design.
+* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Categorize posts and projects using tags and view them on tag pages.
+* Customizable post meta data for individual posts – tags, published date, updated date, author, author link.
+* Create redirect pages using the `_layouts/redirect` template.
 * Support for Disqus comments and Google Analytics.
 * Redesigned table, heading, subheading, link, quote, and text styles.
 * Just as fast as the original – 90+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.com%2F).
-* Read full [post on Pudhina Fresh](https://ritijjain.com/2020/09/12/pudhina-fresh.html).
 
-## Quick Start
-* Install [jekyll](https://jekyllrb.com/docs/installation/).
-* `bundle exec jekyll serve`
-* Navigate to http://localhost:4000/
+## Docs
+Read the [docs post](https://ritijjain.github.io/pudhina-fresh/2020/07/01/docs.html).
+
+Feel free to open a new issue for questions and comments.
 
 ## Credits and License
 Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina) by [Shashank S](https://github.com/knhash).

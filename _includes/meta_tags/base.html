@@ -1,18 +1,28 @@
-{% assign tags_name_list = page.tags | map: "name" %}
-
-<meta charset="UTF-8">
+<meta charset="utf-8" /> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.layout == "post" %}{{ page.content | strip_html | truncatewords: 25, "" }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ tags_name_list | join: ', ' }}">{% endif %}
-{% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
-
 <link rel="canonical" href="{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
 
 {% if page.c_title %}
 <title>{{ page.c_title }}</title>
 {% else %}
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% endif %}
+
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+{% elsif page.layout == "post" %}
+<meta name="description" content="{{ page.content | strip_html | truncatewords: 25, "" }}">
+{% else %}
+<meta name="description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.author %}
+<meta name="author" content="{{ page.author.name }}">
+{% endif %}
+
+{% if page.index == false %}
+<meta name="robots" content="noindex">
 {% endif %}
 
 {% if g_track_id %}
@@ -24,8 +34,4 @@
   gtag('js', new Date());
   gtag('config', '{{ site.g_track_id }}');
 </script>
-{% endif %}
-
-{% if page.index == false %}
-<meta name="robots" content="noindex">
 {% endif %}

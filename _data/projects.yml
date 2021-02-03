@@ -23,7 +23,7 @@
   description_less: >
     <p>A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
   description_more: >
-    <p>This site uses this theme.</p>
+    <p>This site uses <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme.</p>
 
     <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
@@ -40,7 +40,7 @@
   id: p2
   img_src: 
   description_less: >
-    <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
+    <p>Refer to docs to learn how to add your own projects.</p>
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -53,8 +53,8 @@
       name: tag3
       style: warning
     - 
-      name: tag4
-      style: danger
+      name: docs
+      style: primary
 
 - name: Project Three
   id: p3

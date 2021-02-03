@@ -24,19 +24,20 @@ defaults:
     values:
       comments: true
       listed: true
-      author: Ritij Jain
-      author_link: <a href="https://ritijjain.com/">Ritij Jain<a>
+      author: 
+        name: Ritij Jain
+        link: https://ritijjain.com
   -
     scope:
       path: pages/redirects
     values:
       layout: redirect
-      index: false # When false, <meta name="robots" content="noindex"> is added to the page.
-      listed: false # Defines if page is listed on the sitemap.
+      index: false
+      listed: false
   -
     scope:
       path: pages/tags
     values:
       layout: tag
-      index: false # When false, <meta name="robots" content="noindex"> is added to the page.
-      listed: false # Defines if page is listed on the sitemap.
+      index: false
+      listed: false 
