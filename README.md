@@ -1,10 +1,12 @@
 # Pudhina Fresh
 A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 
+Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhina-fresh), [ritijjain.com](https://ritijjain.com/)
+
 * Minimal design based on Bootstrap 4.
 * Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
 * Categorize posts and projects using tags and view them on tag pages.
-* 95+ Google PageSpeed Insight score 🔥 – [Test it out yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
+* 95+ Google PageSpeed Insight score 🔥 – [Test it yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
 
 ![Project Page](/assets/img/dis1.png)
 ![Project Page](/assets/img/dis2.png)
