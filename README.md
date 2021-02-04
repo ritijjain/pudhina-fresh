@@ -10,7 +10,7 @@ Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhi
 
 ![Project Page](/assets/img/dis1.png)
 ![Project Page](/assets/img/dis2.png)
-![Project Page](/assets/img/dis2.png)
+![Project Page](/assets/img/dis3.png)
 ![Project Page](/assets/img/dis4.png)
 ![Project Page](/assets/img/dis5.png)
 
