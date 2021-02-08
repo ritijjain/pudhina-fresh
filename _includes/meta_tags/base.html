@@ -19,6 +19,8 @@
 
 {% if page.author %}
 <meta name="author" content="{{ page.author.name }}">
+{% elsif page.layout == "post" and site.author.name %}
+<meta name="author" content="{{ site.author.name }}">
 {% endif %}
 
 {% if page.index == false %}
