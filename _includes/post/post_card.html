@@ -2,7 +2,7 @@
     <div class="card-body">
         <h5><b><a class="stretched-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b></h5>
         <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-        <p class="post-title__subtitle">Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, %y" }}20) {% endif %} by {{ post.author.name }}{% if post.pin %} • Pinned ⭐{% endif %}<br />
+        <p class="post-title__subtitle">Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %} by {% if post.author.name %}{{ post.author.name }}{% else %}{{ site.author.name }}{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}<br />
             {% for tag in post.tags %}
                 {% include tag_list.html %}
             {% endfor %}
