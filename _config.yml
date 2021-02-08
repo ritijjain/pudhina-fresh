@@ -1,32 +1,28 @@
-# Site settings
-title: Pudhina Fresh
-short_logo: P.
-description: >
+title: Pudhina Fresh # Shown in header on pages with full_logo: true
+short_logo: P. # Shown in header on all pages by default unless full_logo: true is set
+description: > # The description for your site
   A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-baseurl: "/pudhina-fresh" # The subpath of your site, e.g. /blog/.
-url: "https://ritijjain.github.io" # The base hostname & protocol for your site.
+baseurl: "/pudhina-fresh" # The subpath of your site, e.g. /blog/
+url: "https://ritijjain.github.io" # The base hostname & protocol for your site
 
 author:
-  fullname: Ritij Jain
-  github: /ritijjain/pudhina-fresh
-  linkedin: /
-  email: /
+  name: Ritij Jain
+  github: ritijjain/pudhina-fresh # GitHub username, used for GitHub icon on the top right
+  linkedin: ritijjain # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  email: example@example.com # Used for email icon on the top right
+  homepage: http://ritijjain.com # This links to your name in post meta
 
-disqus_name: 
-g_track_id: 
+disqus_name: # Setting this will turn on Disqus comments
+g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
 
 markdown: kramdown
 
-defaults:
+defaults: # Recommended defaults, you may set your own
   -
     scope:
       path: _posts
     values:
       comments: true
-      listed: true
-      author: 
-        name: Ritij Jain
-        link: https://ritijjain.com
   -
     scope:
       path: pages/redirects
