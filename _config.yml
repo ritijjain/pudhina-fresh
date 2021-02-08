@@ -39,5 +39,5 @@ defaults:
       path: pages/tags
     values:
       layout: tag
-      index: false
-      listed: false 
+      sitemap:
+        priority: 0.4
