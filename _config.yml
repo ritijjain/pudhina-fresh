@@ -10,7 +10,7 @@ author:
   github: ritijjain/pudhina-fresh # GitHub username, used for GitHub icon on the top right
   linkedin: ritijjain # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: example@example.com # Used for email icon on the top right
-  homepage: http://ritijjain.com # This links to your name in post meta
+  homepage: https://ritijjain.com # This links to your name in post meta
 
 disqus_name: # Setting this will turn on Disqus comments
 g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
