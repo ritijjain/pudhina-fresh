@@ -166,7 +166,8 @@
 
   .about__devider {
     font-size: 100%;
-    letter-spacing: 9.09px; }
+    letter-spacing: 9.09px;
+    text-indent: 9.09px;}
 
   .about__text {
     font-size: 100%; }
