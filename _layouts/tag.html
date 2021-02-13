@@ -4,7 +4,7 @@ layout: page
 {% assign post_exists = false %}
 {% assign project_exists = false %}
 
-<h1><b>Posts</b></h1>
+<h1>Posts</h1>
 <br>
 {% for post in site.posts %}
     {% unless post.listed == false %}
@@ -20,7 +20,7 @@ layout: page
 <p>No posts with this tag.</p>
 {% endif %}
 
-<h1><b>Projects</b></h1>
+<h1>Projects</h1>
 <br>
 <div class="card-columns">
     {% for project in site.data.projects %}
@@ -37,3 +37,13 @@ layout: page
 {% if project_exists == false %}
 <p>No projects with this tag.</p>
 {% endif %}
+
+<h1>Tags</h1>
+<br>
+{% for page in site.pages %}
+    {% if page.layout == 'tag' %}
+        {% assign tag = page.tag %}
+        {% assign tag_style = page.tag_style %}
+        {% include tag_list.html %}
+    {% endif %}
+{% endfor %}
