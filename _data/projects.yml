@@ -1,17 +1,15 @@
-- name: Project One # Project name, also used as heading.
-  id: p1 # Project id. Must be unique amongst the projects.
-  img_src: /assets/img/connectpie-page.png # Optional image.
-  description_less: > # Description shown at all times.
+- name: Project One # Project name, also used as heading
+  id: p1 # Project id, must be unique amongst the projects
+  img_src: /assets/img/connectpie-page.png # Optional image
+  description_less: > # Description shown at all times
     <p>This part of the project description is visible at all times.</p> 
-  description_more: > # Description shown only when the project card is expanded.
+  description_more: > # Description shown only when the project card is expanded
     <p>This part is only seen when you click on the project card.</p> 
 
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: 
-  - tag1 
-  - tag2
+  tags: [tag1, tag2] # A list of tags
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
@@ -24,9 +22,7 @@
     <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: 
-  - jekyll 
-  - open-source
+  tags: [jekyll, open-source]
 
 - name: Project Two
   id: p2
@@ -40,9 +36,7 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: 
-  - tag3 
-  - docs
+  tags: [tag3, docs]
 
 - name: Project Three
   id: p3
@@ -56,6 +50,4 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: 
-  - tag2 
-  - tag4
+  tags: [tag2, tag4]
