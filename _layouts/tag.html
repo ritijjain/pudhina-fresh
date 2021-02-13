@@ -9,7 +9,7 @@ layout: page
 {% for post in site.posts %}
     {% unless post.listed == false %}
         {% for tag in post.tags %}
-            {% if tag.name == page.tag %}
+            {% if tag == page.tag %}
                 {% include post/post_card.html %}
                 {% assign post_exists = true %}
             {% endif %}
@@ -26,7 +26,7 @@ layout: page
     {% for project in site.data.projects %}
     {% unless project.listed == false %}
         {% for tag in project.tags %}
-            {% if tag.name == page.tag %}
+            {% if tag == page.tag %}
                 {% include post/project_card.html %}
                 {% assign project_exists = true %}
             {% endif %}

@@ -9,13 +9,9 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: # List your tag name along with their Bootsrap contextual style.
-    - 
-      name: tag1 # tag name.
-      style: primary # chose from: primary, secondary, success, danger, warning, info, light, dark
-    - 
-      name: tag2
-      style: secondary
+  tags: 
+  - tag1 
+  - tag2
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
@@ -28,13 +24,9 @@
     <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags:
-    - 
-      name: jekyll
-      style: info
-    - 
-      name: open-source
-      style: success
+  tags: 
+  - jekyll 
+  - open-source
 
 - name: Project Two
   id: p2
@@ -48,13 +40,9 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags:
-    - 
-      name: tag3
-      style: warning
-    - 
-      name: docs
-      style: primary
+  tags: 
+  - tag3 
+  - docs
 
 - name: Project Three
   id: p3
@@ -68,10 +56,6 @@
     <a href="https://github.com" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags:
-    - 
-      name: tag2
-      style: secondary
-    - 
-      name: tag4
-      style: danger
+  tags: 
+  - tag2 
+  - tag4
