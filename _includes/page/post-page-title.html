@@ -1,0 +1,12 @@
+{% if tags %}
+{% for tag in page.tags %}
+    {% include tag_list.html %}
+{% endfor %}
+{% endif %}
+
+<h1 class="post-title">
+    <div class="post-title__text">{{ page.title }}</div>
+</h1>
+{% if page.updated %}
+<p class="post-title__subtitle">Last updated {{ page.updated | date: "%b %e, 20%y" }}</p>
+{% endif %}

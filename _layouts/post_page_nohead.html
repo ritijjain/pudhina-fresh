@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include meta_tags/base.html %}
+{% include externals/styling.html %}
+</head>
+<body>
+<div class="wrapper">
+
+<br>
+<br>
+{% include page/post-page-title.html %}
+
+{% include post/splash_image.html %}
+
+<br>
+{{ content }}
+
+<br>
+{% if page.comments %}
+{% include post/disqus.html %}
+{% endif %}
+<br>
+{% include page/about.html %}
+</div>
+</body>
+</html>
