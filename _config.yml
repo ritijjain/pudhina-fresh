@@ -2,7 +2,7 @@ title: Pudhina Fresh # Shown in header on pages with full_logo: true
 short_logo: P. # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-baseurl: "/pudhina-fresh" # The subpath of your site, e.g. /blog/
+baseurl: "/pudhina-fresh/" # The subpath of your site, e.g. /blog/
 url: "https://ritijjain.github.io" # The base hostname & protocol for your site
 
 author:
@@ -11,6 +11,7 @@ author:
   linkedin: ritijjain # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: example@example.com # Used for email icon on the top right
   homepage: https://ritijjain.com # This links to your name in post meta
+  twitter: # Twitter username, used for Twitter Card Analytics 
 
 disqus_name: # Setting this will turn on Disqus comments
 g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics

@@ -8,11 +8,7 @@ Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhi
 * Categorize posts and projects using tags and view them on tag pages.
 * 95+ Google PageSpeed Insight score 🔥 – [Test it yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
 
-![Project Page](/assets/img/dis1.png)
-![Project Page](/assets/img/dis2.png)
-![Project Page](/assets/img/dis3.png)
-![Project Page](/assets/img/dis4.png)
-![Project Page](/assets/img/dis5.png)
+![Project Page](/assets/img/dis.gif)
 
 ## Features
 ### Everything From [Pudhina](https://github.com/knhash/Pudhina)

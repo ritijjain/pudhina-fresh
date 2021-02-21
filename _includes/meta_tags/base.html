@@ -1,20 +1,29 @@
 <meta charset="utf-8" /> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="{{ site.title }}">
 
 {% if page.c_title %}
 <title>{{ page.c_title }}</title>
+<meta property="og:title" content="{{ page.c_title }}">
 {% else %}
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
 {% endif %}
 
 {% if page.description %}
 <meta name="description" content="{{ page.description }}">
+<meta property="og:description" content="{{ page.description }}">
+
 {% elsif page.layout == "post" %}
-<meta name="description" content="{{ page.content | strip_html | truncatewords: 25, "" }}">
+<meta name="description" content="{{ page.content | strip_html | truncatewords: 30, "" }}">
+<meta property="og:description" content="{{ page.content | strip_html | truncatewords: 30, "" }}">
 {% else %}
 <meta name="description" content="{{ site.description }}">
+<meta property="og:description" content="{{ site.description }}">
 {% endif %}
 
 {% if page.author %}
@@ -37,3 +46,13 @@
   gtag('config', '{{ site.g_track_id }}');
 </script>
 {% endif %}
+
+{% if page.splash_img_source %}
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.splash_img_source }}">
+{% endif %}
+
+{% if site.author.twitter %}
+<meta name="twitter:site" content="@{{ site.author.twitter }}">
+{% endif %}
+
+
