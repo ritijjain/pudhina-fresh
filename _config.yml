@@ -37,3 +37,13 @@ defaults: # Recommended defaults, you may set your own
       layout: tag
       sitemap:
         priority: 0.4
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
