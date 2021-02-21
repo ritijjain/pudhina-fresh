@@ -27,5 +27,10 @@
 <i class="fab fa-linkedin-in"></i>
 </a>
 {% endif %}
+{% if site.rss %}
+<a href="{{ site.url }}{{ site.baseurl }}/feed.xml" class="social-links__entry" target="_blank">
+<i style="color: rgba( 254, 164, 1, 100%);" class="fas fa-rss"></i>
+</a>
+{% endif %}
 </ul>
 </header>

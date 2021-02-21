@@ -47,3 +47,5 @@ compress_html:
   blanklines: true
   profile: false
   startings: [html, head, body]
+
+rss: true # RSS feed icon on or off
