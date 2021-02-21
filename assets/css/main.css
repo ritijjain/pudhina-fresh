@@ -230,6 +230,13 @@
       margin-top: 10px;
       margin-bottom: 30px; }
 
+    .card-img-bottom {
+      border-radius: 0.25rem;
+      max-width: 30%;
+      margin-left: 30px;
+      display: none;
+  }
+
   }
 
   .card .btn {
@@ -253,6 +260,13 @@
   .caption {
     text-align: center;
   }
+
+  .card-img-bottom {
+    border-radius: 0.25rem;
+    float: right;
+    max-width: 30%;
+    margin-left: 30px;
+}
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
   .glitch {
