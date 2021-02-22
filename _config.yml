@@ -2,8 +2,7 @@ title: Pudhina Fresh # Shown in header on pages with full_logo: true
 short_logo: P. # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-baseurl: "/pudhina-fresh" # The subpath of your site, e.g. /blog
-url: "https://ritijjain.github.io" # The base hostname & protocol for your site
+url: "https://ritijjain.github.io/pudhina-fresh" # Site base URL
 
 author:
   name: Ritij Jain

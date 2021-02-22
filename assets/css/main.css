@@ -234,9 +234,7 @@
       border-radius: 0.25rem;
       max-width: 30%;
       margin-left: 30px;
-      display: none;
-  }
-
+      display: none; }
   }
 
   .card .btn {
@@ -266,7 +264,7 @@
     float: right;
     max-width: 30%;
     margin-left: 30px;
-}
+  }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
   .glitch {

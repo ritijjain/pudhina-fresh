@@ -1,6 +1,6 @@
 <div class="card mb-4">
     {% if project.img_src %}
-    <img class="card-img-top" src="{{ site.baseurl }}{{ project.img_src }}">
+    <img class="card-img-top" src="{{ site.url }}{{ project.img_src }}">
     {% endif %}
     <div class="card-body">
       {% for tag in project.tags %}
