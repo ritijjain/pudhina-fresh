@@ -229,12 +229,6 @@
     .page-title {
       margin-top: 10px;
       margin-bottom: 30px; }
-
-    .card-img-bottom {
-      border-radius: 0.25rem;
-      max-width: 30%;
-      margin-left: 30px;
-      display: none; }
   }
 
   .card .btn {
@@ -253,17 +247,19 @@
   
   #splash-img {
     border-radius: 0.25rem;
+    filter: brightness(98%);
   }
 
   .caption {
     text-align: center;
   }
 
-  .card-img-bottom {
+  .post-card-image {
     border-radius: 0.25rem;
-    float: right;
-    max-width: 30%;
-    margin-left: 30px;
+    width: 100%;
+    height: 100%;
+    filter: brightness(96%);
+    object-fit: cover
   }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
