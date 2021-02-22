@@ -19,9 +19,6 @@
             {% unless post.listed == false %}
                 <item>
                     <title>{{ post.title | xml_escape }}</title>
-                    {% if g_track_id %}
-                        <webfeeds:analytics id="{{ g_track_id }}" engine="GoogleAnalytics"/>
-                    {% endif %}
                     {% if post.author.name %}
                         <dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
                     {% endif %}
