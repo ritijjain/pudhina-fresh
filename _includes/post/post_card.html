@@ -1,21 +1,19 @@
-<div class="container">
-    <div class="card mb-4">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-sm-8">
-                    {% for tag in post.tags %}
-                        {% include tag_list.html %}
-                    {% endfor %}
-                    <h4><b><a class="stretched-link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></b></h4>
-                    <p class="post-title__subtitle">Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %} by {% if post.author.name %}{{ post.author.name }}{% else %}{{ site.author.name }}{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}<p>      
-                    <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
-                </div>
-                
-                <div class="col-sm-4">
-                    {% if post.splash_img_source %}
-                    <img class="post-card-image" src="{{ site.url }}{{ post.splash_img_source }}" alt="{{ page.splash_img_caption | strip_html }}">          
-                    {% endif %}   
-                </div>
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-8">
+                {% for tag in post.tags %}
+                    {% include tag_list.html %}
+                {% endfor %}
+                <h4><b><a class="stretched-link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></b></h4>
+                <p class="post-title__subtitle">Published {{ post.date | date: "%b %e, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %} by {% if post.author.name %}{{ post.author.name }}{% else %}{{ site.author.name }}{% endif %}{% if post.pin %} • Pinned ⭐{% endif %}<p>      
+                <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+            </div>
+
+            <div class="col-sm-4">
+                {% if post.splash_img_source %}
+                <img class="post-card-image" src="{{ site.url }}{{ post.splash_img_source }}" alt="{{ page.splash_img_caption | strip_html }}">          
+                {% endif %}   
             </div>
         </div>
     </div>
