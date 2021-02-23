@@ -1,0 +1,20 @@
+current directory: /Users/ritijjain/Documents/Projects/pudhina-fresh/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210224-45971-naj91l.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ritijjain/Documents/Projects/pudhina-fresh/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/ritijjain/Documents/Projects/pudhina-fresh/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file rubymain.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file mapper.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+
+current directory: /Users/ritijjain/Documents/Projects/pudhina-fresh/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20210224-45971-121j5kl
