@@ -3,8 +3,9 @@
 
 
 var disqus_config = function () {
-this.page.url = '{{ "/assets/style.css" | absolute_url }}';
-this.page.identifier = '{{page.url}}'; 
+this.page.url = '{{ site.url }}{{ page.url }}';
+this.page.identifier = '{{ page.url }}{{ page.disqus_identifier_append }}'; 
+this.page.title = '{{ page.title }}';
 };
 
 (function() {
