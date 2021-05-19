@@ -42,6 +42,11 @@
   .wrapper {
     max-width: 80%;
     margin: 60px auto; }
+  
+  .post_wrapper {
+      max-width: 80%;
+      max-width: 800px;
+      margin: 60px auto; }
  
   table {
     border-collapse: collapse;
