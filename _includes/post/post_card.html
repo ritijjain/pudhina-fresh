@@ -12,7 +12,7 @@
 
             <div class="col-sm-4">
                 {% if post.splash_img_source %}
-                <img class="post-card-image" src="{{ site.url }}{{ post.splash_img_source }}" alt="{{ page.splash_img_caption | strip_html }}">          
+                <img class="post-card-image" src="{{ site.url }}{{ post.splash_img_source }}" loading="lazy" alt="{{ page.splash_img_caption | strip_html }}">          
                 {% endif %}   
             </div>
         </div>
