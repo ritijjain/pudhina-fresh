@@ -23,7 +23,9 @@
 
   img {
     display: block;
-    max-width: 100%; }
+    max-width: 100%;
+    position: relative;
+    z-index: 5; }
   
   code {
     font-size: 90%;
@@ -203,7 +205,9 @@
     border-radius: 13%;
     max-width: 125px;
     margin: auto;
-    margin-bottom: 3%; }
+    margin-bottom: 3%;
+    position: relative;
+    z-index: 5; }
 
   #describe-text {
     color: #565656;
@@ -236,15 +240,13 @@
       margin-bottom: 30px; }
   }
 
-  .card .btn {
-    z-index: 2;
+  .btn {
     position: relative;
-  }
+    z-index: 2; }
 
-  .card .badge {
-    z-index: 2;
+  .badge {
     position: relative;
-  }
+    z-index: 2; }
 
   /* Card hover effect */
   .card:hover {
@@ -253,6 +255,8 @@
   #splash-img {
     border-radius: 0.25rem;
     filter: brightness(98%);
+    position: relative;
+    z-index: 5;
   }
 
   .caption {
@@ -264,7 +268,13 @@
     width: 100%;
     height: 100%;
     filter: brightness(96%);
-    object-fit: cover
+    object-fit: cover;
+    position: relative;
+    z-index: 5;
+  }
+
+  .darkmode-layer, .darkmode-toggle {
+    z-index: 3;
   }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
