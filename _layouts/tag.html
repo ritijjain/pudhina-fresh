@@ -22,18 +22,29 @@ layout: page
 
 <h1>Projects</h1>
 <br>
+{% if site.project_card_style_flat %}
+<hr>
+{% else %}
 <div class="card-columns">
+{% endif %}
     {% for project in site.data.projects %}
     {% unless project.listed == false %}
         {% for tag in project.tags %}
             {% if tag == page.tag %}
-                {% include post/project_card.html %}
+                {% if site.project_card_style_flat %}
+                    {% include post/project_card_flat.html %}   
+                {% else %}
+                    {% include post/project_card.html %}
+                {% endif %}
+                
                 {% assign project_exists = true %}
             {% endif %}
         {% endfor %} 
     {% endunless %}
     {% endfor %}
+{% unless site.project_card_style_flat %}
 </div>
+{% endunless %}
 {% if project_exists == false %}
 <p>No projects with this tag.</p>
 {% endif %}

@@ -1,0 +1,18 @@
+<div class="card-body">
+    <div class="row">
+        <div class="col-sm-8">
+            {% for tag in project.tags %}
+            {% include tag_list.html %}
+            {% endfor %}
+            <h4><b>{{ project.name }}</b></h4>
+            {{ project.description_less }}
+            {{ project.description_more }}
+        </div>
+        <div class="col-sm-4">
+            {% if project.img_src %}
+                <img class="post-card-image" src="{{ site.url }}{{ project.img_src }}" loading="lazy">
+            {% endif %} 
+        </div>
+    </div>
+</div>
+<hr>

@@ -48,4 +48,6 @@ compress_html:
   profile: false
   startings: [html, head, body]
 
-rss: true # RSS feed icon on or off
+rss: false # RSS feed icon on or off
+dark_mode: true # Dark mode icon
+project_card_style_flat: false 
