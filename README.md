@@ -6,6 +6,7 @@ Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhi
 * Minimal design based on Bootstrap 4.
 * Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
 * Categorize posts and projects using tags and view them on tag pages.
+* Dark mode (powered by darkmode.js)
 * 95+ Google PageSpeed Insight score 🔥 – [Test it yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
 
 ![Demo image 1](/assets/img/dis1.png)
@@ -33,6 +34,7 @@ Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhi
 * Create redirect pages using the `_layouts/redirect` template.
 * Support for Disqus comments and Google Analytics.
 * Redesigned table, heading, subheading, link, quote, and text styles.
+* Dark mode (powered by darkmode.js)
 * Just as fast as the original – 95+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop).
 
 ## Docs
