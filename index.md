@@ -15,6 +15,17 @@ Pudhina Fresh is free and open-source. Checkout [Pudhina Fresh](https://github.c
 
 <br>
 <br>
+
+Posts
+{% for post in site.posts %}
+  <a href="#">{{ post.title }}</a>
+{% endfor %}
+
+Projects
+{% for project in site.data.projects %}
+  <a href="#">{{ project.name }}</a>
+{% endfor %}
+
 <br>
 <br>
 <br>
