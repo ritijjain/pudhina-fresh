@@ -1,0 +1,4 @@
+{% for tag in tags %}
+    {% assign tag_page = site.pages | where: 'tag', tag | first %}
+    <a href="{{ site.url }}/tags/{{ tag }}" style="background-color: {{ tag_page.tag_style }};" class="badge badge-primary">#{{ tag }}</a>
+{% endfor %}

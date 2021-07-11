@@ -1,8 +1,5 @@
-{% if tags %}
-{% for tag in page.tags %}
-    {% include tag_list.html %}
-{% endfor %}
-{% endif %}
+{% assign tags = page.tags %}
+{% include tag_loop.html %}
 
 <h1 class="post-title">
     <div class="post-title__text">{{ page.title }}</div>

@@ -1,0 +1,46 @@
+<div class="card mb-4">
+    {% if project.img_src %}
+    <img class="card-img-top darkmode-ignore" src="{{ site.url }}{{ project.img_src }}">
+    {% endif %}
+    <div class="card-body">
+      {% assign tags = project.tags %}
+      {% include tag_loop.html %}
+      <h4><b><a class="stretched-link" data-toggle="modal" data-target="#modal{{ project.id }}" href="modal#{{ project.id }}" role="button" aria-expanded="false"
+          aria-controls="collapseExample">{{ project.name }}</a></b></h4>
+      <p>{{ project.description_less }}</p>
+      <div class="collapse" id="{{ project.id }}">
+        {{ project.description_more }}
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal{{ project.id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+          {% if project.img_src %}
+          <img src="{{ site.url }}{{ project.img_src }}">
+          {% endif %}
+          <div class="card-body">
+            
+            {% assign tags = project.tags %}
+            {% include tag_loop.html %}
+          
+            <h4><b><a href="#" role="button">{{ project.name }}</a></b></h4>
+
+
+            <p>{{ project.description_less }}</p>
+
+            {{ project.description_more }}
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        {{ project.action_buttons }}
+        <button class="btn btn-secondary mb-1" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      </div>
+
+    </div>
+  </div>
+</div>

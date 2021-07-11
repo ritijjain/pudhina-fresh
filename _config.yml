@@ -50,4 +50,4 @@ compress_html:
 
 rss: false # RSS feed icon on or off
 dark_mode: true # Dark mode icon
-project_card_style_flat: false # Flat style project cards instead of masonry style
+project_card_style: modal # Choose from masonry, modal, and flat

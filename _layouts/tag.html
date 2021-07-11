@@ -1,60 +1,25 @@
 ---
 layout: page
 ---
-{% assign post_exists = false %}
-{% assign project_exists = false %}
-
 <h1>Posts</h1>
 <br>
-{% for post in site.posts %}
-    {% unless post.listed == false %}
-        {% for tag in post.tags %}
-            {% if tag == page.tag %}
-                {% include post/post_card.html %}
-                {% assign post_exists = true %}
-            {% endif %}
-        {% endfor %} 
-    {% endunless %}
-{% endfor %}
-{% if post_exists == false %}
-<p>No posts with this tag.</p>
+{% assign posts = site.posts | where: 'tags', page.tag %}
+
+{% if posts[0] %}
+    {% include post/post_loop.html %}
+{% else %}
+    <p>No posts with this tag.</p>
 {% endif %}
+
+
 
 <h1>Projects</h1>
 <br>
-{% if site.project_card_style_flat %}
-<hr>
-{% else %}
-<div class="card-columns">
-{% endif %}
-    {% for project in site.data.projects %}
-    {% unless project.listed == false %}
-        {% for tag in project.tags %}
-            {% if tag == page.tag %}
-                {% if site.project_card_style_flat %}
-                    {% include post/project_card_flat.html %}   
-                {% else %}
-                    {% include post/project_card.html %}
-                {% endif %}
-                
-                {% assign project_exists = true %}
-            {% endif %}
-        {% endfor %} 
-    {% endunless %}
-    {% endfor %}
-{% unless site.project_card_style_flat %}
-</div>
-{% endunless %}
-{% if project_exists == false %}
-<p>No projects with this tag.</p>
-{% endif %}
 
-<h1>Tags</h1>
-<br>
-{% for page in site.pages %}
-    {% if page.layout == 'tag' %}
-        {% assign tag = page.tag %}
-        {% assign tag_style = page.tag_style %}
-        {% include tag_list.html %}
-    {% endif %}
-{% endfor %}
+{% assign projects = site.data.projects | where: 'tags', page.tag %}
+
+{% if projects[0] %}
+    {% include project/project_loop.html %}
+{% else %}
+    <p>No projects with this tag.</p>
+{% endif %}

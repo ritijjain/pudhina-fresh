@@ -1,16 +1,16 @@
 <div class="card mb-4">
     {% if project.img_src %}
-    <img class="card-img-top" src="{{ site.url }}{{ project.img_src }}" loading="lazy">
+    <img class="card-img-top" src="{{ site.url }}{{ project.img_src }}">
     {% endif %}
     <div class="card-body">
-      {% for tag in project.tags %}
-        {% include tag_list.html %}
-      {% endfor %}
+      {% assign tags = project.tags %}
+      {% include tag_loop.html %}
       <h4><b><a data-toggle="collapse" class="stretched-link" href="#{{ project.id }}" role="button" aria-expanded="false"
           aria-controls="collapseExample">{{ project.name }}</a></b></h4>
       <p>{{ project.description_less }}</p>
       <div class="collapse" id="{{ project.id }}">
         {{ project.description_more }}
+        {{ project.action_buttons }}
       </div>
     </div>
   </div>

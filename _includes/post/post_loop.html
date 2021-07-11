@@ -1,0 +1,15 @@
+{% for post in posts %}   
+    {% unless post.listed == false %}
+        {% if post.pin %}
+            {% include post/post_card.html %}
+        {% endif %}
+    {% endunless %}   
+{% endfor %}
+
+{% for post in posts %}   
+    {% unless post.listed == false %}
+        {% if post.pin != true %}
+            {% include post/post_card.html %}
+        {% endif %}
+    {% endunless %}   
+{% endfor %}

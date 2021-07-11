@@ -7,20 +7,7 @@ permalink: /projects
 sitemap:
   priority: 0.9
 ---
-{% if site.project_card_style_flat %}
-  <hr>
-  {% for project in site.data.projects %}
-    {% include post/project_card_flat.html %}
-  {% endfor %}
 
-{% else %}
-  <div class="card-columns">
-  {% for project in site.data.projects %}
-    {% include post/project_card.html %}
-  {% endfor %}
-  </div>
-{% endif %}
+{% assign projects = site.data.projects %}
 
-<script>
-
-</script>
+{% include project/project_loop.html %}

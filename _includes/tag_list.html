@@ -1,7 +1,0 @@
-{% for page in site.pages %}
-    {% if page.tag == tag %}
-        {% assign tag_style = page.tag_style %}
-    {% endif %}
-{% endfor %}
-
-<a href="{{ site.url }}/tags/{{ tag }}" style="background-color: {{ tag_style }};" class="badge badge-primary">#{{ tag }}</a>

@@ -1,53 +1,45 @@
 - name: Project One # Project name, also used as heading
   id: p1 # Project id, must be unique amongst the projects
   img_src: /assets/img/connectpie-page.png # Optional image
-  description_less: > # Description shown at all times
-    <p>This part of the project description is visible at all times.</p> 
-  description_more: > # Description shown only when the project card is expanded
+  description_less: This part of the project description is visible at all times. # Description shown at all times, text only
+  description_more: > # Description shown only when the project card is expanded, HTML only
     <p>This part is only seen when you click on the project card.</p> 
-
+  action_buttons: > # Action buttons for project, HTML only
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-
   tags: [tag1, tag2] # A list of tags
 
 - name: Pudina Fresh Jekyll Theme
   id: pf
   img_src: 
-  description_less: >
-    <p>A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
+  description_less: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
   description_more: >
     <p>This site uses Pudhina Fresh theme.</p>
-
+  action_buttons: >
     <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-
   tags: [jekyll, open-source]
 
 - name: Project Two
   id: p2
   img_src: 
-  description_less: >
-    <p>Refer to docs to learn how to add your own projects.</p>
+  description_less: Refer to docs to learn how to add your own projects.
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+  action_buttons: >
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-
   tags: [tag3, docs]
 
 - name: Project Three
   id: p3
   img_src: /assets/img/weatherpie-page.png
-  description_less: >
-    <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
+  description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+  action_buttons: >
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-
   tags: [tag2, tag4]

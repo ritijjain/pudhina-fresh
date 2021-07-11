@@ -1,0 +1,20 @@
+{% if site.project_card_style == "flat" %}
+  {% for project in projects %}
+    {% include project/project_card_flat.html %}
+  {% endfor %}
+
+{% elsif site.project_card_style == "modal" %}
+  <div class="card-columns">
+    {% for project in projects %}
+      {% include project/project_card_modal.html %}
+    {% endfor %}
+  </div>
+
+{% elsif site.project_card_style == "masonry" %}
+  <div class="card-columns">
+    {% for project in projects %}
+      {% include project/project_card.html %}
+    {% endfor %}
+  </div>
+  
+{% endif %}
