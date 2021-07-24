@@ -233,14 +233,14 @@ a.logo:hover {
 }
 
 /* =Main Page */ /*************************************************************/
-#about-img {
+.about-img {
   border-radius: 0.25rem;
   max-width: 125px;
   margin: auto;
   margin-bottom: 3%;
 }
 
-#describe-text {
+.describe-text {
   color: #565656;
   font-style: italic;
   font-weight: 700;
@@ -290,18 +290,12 @@ a.logo:hover {
   z-index: 2;
 }
 
-.card {
-
-}
-
 /* Card hover effect */
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#splash-img {
-  border-radius: 0.25rem;
-  mix-blend-mode: difference;
+.splash-img {
   filter: brightness(98%);
 }
 
