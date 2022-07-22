@@ -10,7 +10,6 @@
     <a href="https://blog.atherenergy.com/edge-ai-the-intelligence-engine-that-powers-athers-smarts-a1b2118a315f" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Medium</a>
   tags: [atherenergy, AI] # A list of tags
 
-
 - name: Cloud platform and ingesting TBs of data from bikes # Project name, also used as heading
   id: p2 # Project id, must be unique amongst the projects
   img_src: /assets/img/cloud-ather-framework.png # Optional image
