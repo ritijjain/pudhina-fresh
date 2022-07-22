@@ -1,6 +1,6 @@
-title: bhatvm # Shown in header on pages with full_logo: true
+title: bhatvm. # Shown in header on pages with full_logo: true
 short_logo: bhatvm. # Shown in header on all pages by default unless full_logo: true is set
-description: > # The description for your site
+description:  # The description for your site
   A quick look at my Data science, Analytics and Viz journey.
 url: "https://bhatvm.github.io/" # Site base URL
 

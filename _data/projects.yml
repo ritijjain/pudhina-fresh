@@ -1,45 +1,23 @@
-- name: Project One # Project name, also used as heading
+- name: Edge AI | The Intelligence Engine that powers Ather’s Smarts # Project name, also used as heading
   id: p1 # Project id, must be unique amongst the projects
-  img_src: /assets/img/connectpie-page.png # Optional image
-  description_less: This part of the project description is visible at all times. # Description shown at all times, text only
+  img_src: /assets/img/edge-AI.gif # Optional image
+  description_less: Revolutionising Smart mobility at the edge. # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
-    <p>This part is only seen when you click on the project card.</p> 
+    <p>This medium blog talks about the edge-ai module that my team was building at Ather. Miles ahead of the competition, we were looking
+    to build a framework that enables top of the class smart data driven intelligent features. Read more....</p> 
   action_buttons: > # Action buttons for project, HTML only
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag1, tag2] # A list of tags
+    <a href="https://www.linkedin.com/pulse/edge-ai-intelligence-engine-powers-athers-smarts-vishwas-bhat/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Linkedin</a>
+    <a href="https://blog.atherenergy.com/edge-ai-the-intelligence-engine-that-powers-athers-smarts-a1b2118a315f" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Medium</a>
+  tags: [atherenergy, AI] # A list of tags
 
-- name: Pudina Fresh Jekyll Theme
-  id: pf
-  img_src: 
-  description_less: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-  description_more: >
-    <p>This site uses Pudhina Fresh theme.</p>
-  action_buttons: >
-    <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [jekyll, open-source]
 
-- name: Project Two
-  id: p2
-  img_src: 
-  description_less: Refer to docs to learn how to add your own projects.
-  description_more: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  action_buttons: >
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag3, docs]
-
-- name: Project Three
-  id: p3
-  img_src: /assets/img/weatherpie-page.png
-  description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
-  description_more: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  action_buttons: >
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag2, tag4]
+- name: Cloud platform and ingesting TBs of data from bikes # Project name, also used as heading
+  id: p2 # Project id, must be unique amongst the projects
+  img_src: /assets/img/cloud-ather-framework.png # Optional image
+  description_less: A quick look at the data challenges and the solutions we built at Ather. # Description shown at all times, text only
+  description_more: > # Description shown only when the project card is expanded, HTML only
+    <p>TIn this blog, I will delve into the challenges and the requirements of building the cloud data stack. Read more....</p> 
+  action_buttons: > # Action buttons for project, HTML only
+    <a href="https://www.linkedin.com/pulse/overview-engineering-cloud-challenges-ather-vishwas-bhat/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Linkedin</a>
+    <a href="https://blog.atherenergy.com/an-overview-of-engineering-cloud-challenges-at-ather-6c137c392e96" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Medium</a>
+  tags: [atherenergy, dataengineering, cloud, GCP] # A list of tags
